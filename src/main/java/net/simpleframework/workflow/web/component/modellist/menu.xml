@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<item title="#(Delete)" iconClass="menu_icon_delete">
+		<jsSelectCallback>
+			$pager_action(item).del();
+		</jsSelectCallback>
+	</item>
+	<item title="-" />
+	<item title="#(model_list_menu.1)" iconClass="menu_icon_option">
+		<jsSelectCallback>
+			$pager_action(item).opt();
+		</jsSelectCallback>
+	</item>
+</menu>
